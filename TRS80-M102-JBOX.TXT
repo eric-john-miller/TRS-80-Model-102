@@ -1,0 +1,8 @@
+10 REM JBOX.BA
+20 REM Play Crisps Tunes
+30 PRINT "Crisps Tunes Jukebox"
+40 FILES
+50 INPUT "File to play.Press ENTER to quit";FN$
+60 IF FN$="" THEN END
+70 RUN FN$
+80 END
